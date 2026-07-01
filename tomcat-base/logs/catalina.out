@@ -1,0 +1,518 @@
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/11.0.22
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 1 2026 18:29:05 UTC
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 11.0.22.0
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            26.5.1
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          aarch64
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           25.0.2
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Homebrew
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/vishnupv/Documents/Doctor_DashBoard/tomcat-base
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /opt/homebrew/Cellar/tomcat/11.0.22/libexec
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dnop
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --enable-native-access=ALL-UNNAMED
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/vishnupv/Documents/Doctor_DashBoard/tomcat-base
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/opt/homebrew/Cellar/tomcat/11.0.22/libexec
+Jun 29, 2026 6:51:05 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/vishnupv/Documents/Doctor_DashBoard/tomcat-base/temp
+Jun 29, 2026 6:51:05 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vishnupv/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Jun 29, 2026 6:51:06 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8081"]
+Jun 29, 2026 6:51:06 PM org.apache.catalina.startup.Catalina load
+INFO: Server initialization in [224] milliseconds
+Jun 29, 2026 6:51:06 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Jun 29, 2026 6:51:06 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/11.0.22]
+Jun 29, 2026 6:51:06 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8081"]
+Jun 29, 2026 6:51:06 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in [105] milliseconds
+Jun 29, 2026 6:52:23 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Jun 29, 2026 6:52:23 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8081"]
+Jun 29, 2026 6:52:23 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Jun 29, 2026 6:52:23 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8081"]
+Jun 29, 2026 6:52:23 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8081"]
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/11.0.22
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 1 2026 18:29:05 UTC
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 11.0.22.0
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            26.5.1
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          aarch64
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           25.0.2
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Homebrew
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/vishnupv/Documents/Doctor_DashBoard/tomcat-base
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /opt/homebrew/Cellar/tomcat/11.0.22/libexec
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dnop
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --enable-native-access=ALL-UNNAMED
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/vishnupv/Documents/Doctor_DashBoard/tomcat-base
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/opt/homebrew/Cellar/tomcat/11.0.22/libexec
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/vishnupv/Documents/Doctor_DashBoard/tomcat-base/temp
+Jun 29, 2026 10:00:57 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vishnupv/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Jun 29, 2026 10:00:57 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8081"]
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.Catalina load
+INFO: Server initialization in [281] milliseconds
+Jun 29, 2026 10:00:57 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Jun 29, 2026 10:00:57 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/11.0.22]
+Jun 29, 2026 10:00:57 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8081"]
+Jun 29, 2026 10:00:57 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in [132] milliseconds
+Jun 29, 2026 10:58:36 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Jun 29, 2026 10:58:36 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8081"]
+Jun 29, 2026 10:58:36 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Jun 29, 2026 10:58:36 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8081"]
+Jun 29, 2026 10:58:36 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/11.0.22
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 1 2026 18:29:05 UTC
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 11.0.22.0
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            26.5.1
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          aarch64
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           25.0.2
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Homebrew
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/vishnupv/Documents/Doctor_DashBoard/tomcat-base
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /opt/homebrew/Cellar/tomcat/11.0.22/libexec
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dnop
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --enable-native-access=ALL-UNNAMED
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/vishnupv/Documents/Doctor_DashBoard/tomcat-base
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/opt/homebrew/Cellar/tomcat/11.0.22/libexec
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/vishnupv/Documents/Doctor_DashBoard/tomcat-base/temp
+Jul 01, 2026 10:45:49 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vishnupv/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Jul 01, 2026 10:45:49 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.Catalina load
+INFO: Server initialization in [281] milliseconds
+Jul 01, 2026 10:45:49 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Jul 01, 2026 10:45:49 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/11.0.22]
+Jul 01, 2026 10:45:49 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 10:45:49 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in [125] milliseconds
+Jul 01, 2026 10:52:36 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Jul 01, 2026 10:52:36 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 10:52:36 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Jul 01, 2026 10:52:36 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 10:52:36 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/11.0.22
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 1 2026 18:29:05 UTC
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 11.0.22.0
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            26.5.1
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          aarch64
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           25.0.2
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Homebrew
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/vishnupv/Documents/Doctor_DashBoard/tomcat-base
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /opt/homebrew/Cellar/tomcat/11.0.22/libexec
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dnop
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --enable-native-access=ALL-UNNAMED
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/vishnupv/Documents/Doctor_DashBoard/tomcat-base
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/opt/homebrew/Cellar/tomcat/11.0.22/libexec
+Jul 01, 2026 10:52:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/vishnupv/Documents/Doctor_DashBoard/tomcat-base/temp
+Jul 01, 2026 10:52:37 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vishnupv/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Jul 01, 2026 10:52:37 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 10:52:38 PM org.apache.catalina.startup.Catalina load
+INFO: Server initialization in [227] milliseconds
+Jul 01, 2026 10:52:38 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Jul 01, 2026 10:52:38 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/11.0.22]
+Jul 01, 2026 10:52:38 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 10:52:38 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in [103] milliseconds
+Jul 01, 2026 10:53:56 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Jul 01, 2026 10:53:56 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 10:53:56 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Jul 01, 2026 10:53:56 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 10:53:56 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/11.0.22
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 1 2026 18:29:05 UTC
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 11.0.22.0
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            26.5.1
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          aarch64
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           25.0.2
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Homebrew
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/vishnupv/Documents/Doctor_DashBoard/tomcat-base
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /opt/homebrew/Cellar/tomcat/11.0.22/libexec
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dnop
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --enable-native-access=ALL-UNNAMED
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/vishnupv/Documents/Doctor_DashBoard/tomcat-base
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/opt/homebrew/Cellar/tomcat/11.0.22/libexec
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/vishnupv/Documents/Doctor_DashBoard/tomcat-base/temp
+Jul 01, 2026 10:53:57 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vishnupv/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Jul 01, 2026 10:53:57 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.Catalina load
+INFO: Server initialization in [231] milliseconds
+Jul 01, 2026 10:53:57 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Jul 01, 2026 10:53:57 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/11.0.22]
+Jul 01, 2026 10:53:57 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 10:53:57 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in [104] milliseconds
+Jul 01, 2026 11:00:36 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Jul 01, 2026 11:00:36 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 11:00:36 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Jul 01, 2026 11:00:36 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 11:00:36 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/11.0.22
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 1 2026 18:29:05 UTC
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 11.0.22.0
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            26.5.1
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          aarch64
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           25.0.2
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Homebrew
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/vishnupv/Documents/Doctor_DashBoard/tomcat-base
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /opt/homebrew/Cellar/tomcat/11.0.22/libexec
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dnop
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --enable-native-access=ALL-UNNAMED
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/vishnupv/Documents/Doctor_DashBoard/tomcat-base
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/opt/homebrew/Cellar/tomcat/11.0.22/libexec
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/vishnupv/Documents/Doctor_DashBoard/tomcat-base/temp
+Jul 01, 2026 11:00:37 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vishnupv/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Jul 01, 2026 11:00:37 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.Catalina load
+INFO: Server initialization in [232] milliseconds
+Jul 01, 2026 11:00:37 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Jul 01, 2026 11:00:37 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/11.0.22]
+Jul 01, 2026 11:00:37 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 11:00:37 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in [114] milliseconds
+Jul 01, 2026 11:09:31 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Jul 01, 2026 11:09:31 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 11:09:31 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Jul 01, 2026 11:09:31 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 11:09:31 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/11.0.22
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 1 2026 18:29:05 UTC
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 11.0.22.0
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            26.5.1
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          aarch64
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           25.0.2
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Homebrew
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/vishnupv/Documents/Doctor_DashBoard/tomcat-base
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /opt/homebrew/Cellar/tomcat/11.0.22/libexec
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dnop
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --enable-native-access=ALL-UNNAMED
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/vishnupv/Documents/Doctor_DashBoard/tomcat-base
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/opt/homebrew/Cellar/tomcat/11.0.22/libexec
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/vishnupv/Documents/Doctor_DashBoard/tomcat-base/temp
+Jul 01, 2026 11:09:32 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/vishnupv/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Jul 01, 2026 11:09:32 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.Catalina load
+INFO: Server initialization in [236] milliseconds
+Jul 01, 2026 11:09:32 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Jul 01, 2026 11:09:32 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/11.0.22]
+Jul 01, 2026 11:09:32 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 11:09:32 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in [101] milliseconds
+Jul 01, 2026 11:14:23 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Jul 01, 2026 11:14:23 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 11:14:23 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Jul 01, 2026 11:14:23 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8081"]
+Jul 01, 2026 11:14:23 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8081"]
