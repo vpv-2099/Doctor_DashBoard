@@ -16,3 +16,8 @@ document.querySelectorAll(".nav-links a").forEach((link) => {
 document.querySelector(".booking-form")?.addEventListener("submit", (event) => {
   event.preventDefault();
 });
+
+document.querySelector(".back-to-top")?.addEventListener("click", (event) => {
+  event.preventDefault();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
